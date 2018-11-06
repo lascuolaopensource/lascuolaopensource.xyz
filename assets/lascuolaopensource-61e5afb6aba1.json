@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lascuolaopensour-1479635233499",
+  "private_key_id": "61e5afb6aba192e98df7ace55f880c8a68dde81b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6j+H+U633E7uR\nu+g9Zze784nF2flRsVqV0CSyksqSPnLWfFxfSG7dkB1TtMb6cRlPli+cejXZo4Z7\nig9VoJQtkr+aA9yMZKRvuC72c8LOYQdGZ5VBWtbaOV+iLG96miNS4geWK/QKY4nZ\nHeixaEYi3u/6oB2pURZ48Rmp0flgdWVXWx6P1JEn66Y/dprpFp+aFWjMcjDG11DC\nIUryZ5V3u0557Fa0lIvD2cUnkGr0EKGS8rTMzks7AWvMhwhTo6+HsO5DPW3bglev\nC1KBUw5mGgCOhTKjqbixVgi+GLh9HeXME5K9O/tA3MxVk97Q7fH1Ex9kT+V8zCQ7\nT8b1wQXJAgMBAAECggEAGgHUz097AOaPT1GSnny1GE5q9lncl7bRmfDaLMqp0plC\nCQRtHBtM2TYt4G1jD6aUkLOvD3E58I0LQk2MtbMc9P1wGFhRdoDRK4HRiim5DmwY\nR4hJFkNDkEhPPJxVLhIuum8n/5dA/fHCVbIFrjWLEXFiot2PRPs41sNFgJb03K1D\n5KDGRnqK0UHwy+yYuS/3nCejdD+zHWsHBjFHN8lvEmsRzTq5V17/K/X7UuOx9bW5\nU1G+pboRNPCRWecRIthFU5pkwODICh1+qh+bk6zBnAJVvi5sJbgg/3ALabhLcAwM\n9J9TzWmXrRNL+Xvwhzs+hXDhQ4zwqwbOaRY80Dk2wQKBgQDky7WOfel+emeOwQtD\nkp1KX3Y9Iv3YuDbnfFrlK4j7L6sqzPF7TFY1ArJq3Lz8DLYU2299/UcFzxjiF70R\nr+0O35sVlDjES/EpsfNtyx2Wmf8a7rVyR+UV5qtoGipTQGGj5MKRWz16tjAkL8mM\nmMf9YaKOy2sOsisT2gfqWBUw0wKBgQDQvqBTV2Mw1YI9qYhaUGbtxaCGyhg6jDZ6\nuTaN34KAZOu0tEAqQXP0tc0Ick6W/Y4ip/V8F+oowX2oWReqJQTbgRaCSYoERIo1\nZZql2kpkRfEnER+2081qFtq+Z8ASgndMMkrw4r1ZzEW79vELvd71AUyCkx2o1oZZ\nA3K8ml0tcwKBgQDAn+ETPl6+5T8aqNxa360dWJGrlzIwq6dN7Rx5pNWG5PMu7azB\nKdvKdaLQ5VcWvXzuwnBzmjGZamqAr4u2wG7M/uUKnefNHELF39Qas88NZEmq2x5Y\nQL9WWQYmdyD7RlDuM0K8Lhzsm0acsL73aAm4AeNiZVCU5tvtsrrHSbFNkQKBgExM\n0WeFMrF/6WpGlJuGdgkFSsbaCf8kjylOl91FzHrH6MwVcrq/T/YrmbUzqvxP0+tg\n/z8LssCQ8TBe2GKNw3fEeIjI/pTOxMH90Ig9ASIj2qDQBoqaYqQblHsyiyd43shQ\nPcpM5q9zFi49diA3l85wWhoEUjwLpfHVa9P6jIJ3AoGAbeeinJEHtB1eG5AiyLiR\nCeVaIrW/AMjGvDt7amXlljLuaTbiE5b1G9HBv9USH80zOCLpBI5Ri0Cd4+Piu2MK\nxuzCT1utEAai55G8qsNopVa0H/q6BjNk4gWnmJrIdn1+CFgW0zJmCZLuzkDKR7WY\n7Iwje908mFlpSr30PkQLyOk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-api@lascuolaopensour-1479635233499.iam.gserviceaccount.com",
+  "client_id": "115271269315678364550",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-api%40lascuolaopensour-1479635233499.iam.gserviceaccount.com"
+}

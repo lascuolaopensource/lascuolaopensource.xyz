@@ -1,0 +1,15 @@
+Sitemap: http://lascuolaopensource.xyz/sitemap.php
+
+User-agent: *
+Disallow: /wp-content/
+Disallow: /wp-content/*?*
+Disallow: /wp-content/*?
+Disallow: /wp-admin/
+Disallow: /wp-admin/*?
+Disallow: /wp-admin/*?*
+Disallow: /wp-includes/
+Disallow: /wp-includes/*?
+Disallow: /wp-includes/*?*
+Allow: *
+Allow: ?*
+Allow: *?*

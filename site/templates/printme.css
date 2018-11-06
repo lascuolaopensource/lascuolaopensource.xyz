@@ -1,0 +1,520 @@
+/* @override http://lascuolaopensource.xyz/assets/css/printme.css */
+
+/* @override http://lascuolaopensource.xyz/assets/css/printme.css */
+
+/* @override http://localhost:8000/assets/css/printme.css */
+
+/* @override http://localhost:8000/assets/css/printme.css */
+
+/* @override http://localhost:8000/assets/css/printme.css */
+
+/* @override http://localhost:8000/assets/css/printme.css */
+
+/* Caricamento caratteri tipografici */
+
+@font-face {
+    font-family: 'freakgrotesk';
+       src: url("/assets/css/fonts/Freak-Grotesk.otf");
+}
+@font-face {
+    font-family: 'freakgrotesknext';
+       src: url("/assets/css/fonts/FREAKGrotesk-next.otf");
+}
+@font-face {
+    font-family: 'HK-Light';
+       src: url("/assets/css/fonts/HKGrotesk-Light.otf");
+}
+@font-face {
+    font-family: 'HK-Lightitalic';
+      src: url("/assets/css/fonts/HKGrotesk-LightItalic.otf");
+}
+@font-face {
+    font-family: 'HK-Regular';
+       src: url("/assets/css/fonts/HKGrotesk-Regular.otf");
+}
+@font-face {
+    font-family: 'HK-Italic';
+   src: url("/assets/css/fonts/HKGrotesk-Italic.otf");
+}
+@font-face {
+    font-family: 'HK-Medium';
+   src: url("/assets/css/fonts/HKGrotesk-Medium.otf");
+}
+@font-face {
+    font-family: 'HK-MediumItalic';
+       src: url("/assets/css/fonts/HKGrotesk-MediumItalic.otf");
+}
+@font-face {
+    font-family: 'HK-Bold';
+       src: url("/assets/css/fonts/HKGrotesk-Bold.otf");
+}
+@font-face {
+    font-family: 'HK-BoldItalic';
+   src: url("/assets/css/fonts/HKGrotesk-BoldItalic.otf");
+}
+@font-face {
+    font-family: 'ChartwellBars-Web';
+   src: url("/assets/css/fonts/chartwell-bars-web.ttf")   format('truetype'), url("/assets/css/fonts/chartwell-bars-web.woff")   format('woff');
+}
+
+
+
+
+@media print{
+
+*{	
+transition:all .3s;
+
+    margin: 0;
+    padding: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+footer{
+	position:absolute;
+	bottom:1em;
+	left: 1em;
+	width:100%;
+	float: left;
+}
+div.j{
+	float:left;
+	width: auto;
+	margin-right: 2.5%;
+	margin-top: 0.66%;
+}
+div.j svg{
+	width: 5.66em;
+}
+h1.SOS {
+	font: 1.5em/2em 'HK-Bold';
+}
+p.docente {
+	font: 1em/1.5em 'HK-Regular';
+	float: left;
+	width: 100%;
+	margin-bottom: 1%;
+	margin-top: 0;
+}
+
+div.testo {
+	float: left;
+}
+
+div.info {
+	font: 0.75em/1.5em 'HK-Regular';
+	float: left;
+	width: 70%;
+}
+div.info br{
+	display: block!important;
+}
+div.meta h2 {
+	width:50%;
+	float:left;
+	margin-bottom: 1%;
+	font-size: 1em;
+}
+h5.tag {
+	color: black;
+	border: 2px black solid;
+	float:left;
+	font-size: 1.66em;
+	line-height: 1.5em;
+	padding: 1% 5%;
+	margin-right: 2.1%;
+	margin-bottom: 2%;
+}
+
+h3 {
+	float: left;
+	width: 100%;
+	font-size: 0.9em!important;
+}
+
+li {
+	list-style-type: none;
+	border:1px black solid!important;
+}
+
+h3.stacca {
+	margin-bottom: 2.5%;
+	width: 100%;
+	font: 1.2em 'HK-Bold'!important;
+	text-transform: uppercase;
+}
+iframe{
+	display:none;
+}
+div.colonna p {
+	line-height: 1.33em;
+	padding-right: 5%;
+	font-size: 1em;
+}
+div.colonna.uno{
+	width: 50%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+br {
+   display: none!important;
+}
+div.meta {
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+	font: 1em 'HK-Regular';
+}
+div.colonna strong{
+	font-size: 1em;
+}
+strong {
+	font-family: 'HK-Bold';
+}
+
+div.info strong{
+	font: 1em 'HK-Bold';
+	width: 100%;
+}
+span.orario {
+font-feature-settings: 'tnum'!important;
+-webkit-font-feature-settings: 'tnum'!important;
+-moz-font-feature-settings: 'tnum'!important;`
+font-variant-numeric: lining-nums!important;
+	float: right;
+	margin-right: 40%;
+}
+body{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+div.colonna{
+	width: 33%;
+	float: left;
+	min-height:9em;
+	font-family: 'HK-Regular';
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 0.75em!important;
+	line-height: 1.5em!important;
+}
+
+h2.titolino {
+	float: left;
+	width: 100%;
+	margin-bottom: 1%;
+	font: 1.2em 'HK-Bold'!important;
+	text-transform: uppercase;
+}
+
+img {
+	display:none;
+	
+}
+h2.corso{
+  -moz-font-feature-settings: "ss03"!important;
+  -webkit-font-feature-settings: "ss03"!important;
+  font-feature-settings: "ss03"!important;
+	text-transform: uppercase;
+	text-align: left;
+	width: 100%;
+	float: left;
+	margin: 2.5% 0 0;
+	font: normal 4em 'freakgrotesknext';
+    text-shadow: -6px 6px white, -12px 12px silver;
+	position: relative;
+	bottom: 6px;
+}
+@html {
+  size: a4;
+}
+
+p.xyz {
+	display: inline;
+	float: left;
+	width: 100%;
+	font: 1em 'HK-Light';
+	margin-top: 2.5%;
+	text-transform: uppercase;
+}
+
+}
+
+
+@media screen{
+
+h5.tag {
+	color: black;
+	border: 2px black solid;
+	float:left;
+	font-size: 1.66em;
+	line-height: 1.5em;
+	padding: 1% 5%;
+	margin-right: 2.1%;
+	margin-bottom: 2%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	background-color: black;
+}
+
+
+
+footer{
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	margin-bottom:2.5%;
+	float: left;
+}
+button.close {
+	display: none;
+}
+
+div.modal-header, div.modal-footer{
+	border: none;
+}
+
+#myModal div.modal-dialog div.modal-content div.modal-footer button.btn.btn-default:hover
+{
+	background-color: rgb(158, 141, 246);
+transition:all .3s;
+}
+#myModal div.modal-dialog div.modal-content div.modal-footer button.btn.btn-default {
+	font-size: 1em;
+	width: 10%;
+	height: 4%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+    border-radius: 20px;
+	border-style: none;
+	background-color: white;
+	cursor:pointer;
+transition:all .3s;
+}
+
+#myModal div.modal-dialog div.modal-content  {
+		background-color: black!important;
+
+}
+body{
+	background-color: white;
+	margin-right: 27.5%!important;
+	margin-left: 27.5%!important;
+	padding-right: 2.5%!important;
+	padding-left: 2.5%!important;
+	width: 40%!important ;
+	font-size: 0.75em!important;
+}
+div.modal-body {
+	border: none;
+}
+
+#myModal h3 {
+	font: 4em 'freakgrotesknext'!important;
+	color: white;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	  -moz-font-feature-settings: "ss03"!important;
+  -webkit-font-feature-settings: "ss03"!important;
+  font-feature-settings: "ss03"!important;
+	text-transform: uppercase;
+}
+#myModal{
+	text-align:center;
+}
+#myModal  p {
+	font: 1.5em/1.25em 'HK-Regular';
+	color: white;
+}
+
+p.docente {
+	font: 1em/1.5em 'HK-Regular';
+	float: left;
+	width: 100%;
+	margin-bottom: 1%;
+	margin-top: 0;
+}
+
+h1.SOS {
+	font: 1.5em/2em 'HK-Bold';
+}
+
+div.testo {
+	float: left;
+}
+
+div.info {
+	font: 0.75em/1.5em 'HK-Regular';
+	float: left;
+	width: 400px;
+	padding-right:5%;
+}
+div.meta h2 {
+	width:50%;
+	float:left;
+	margin-bottom: 1%;
+	font-size: 1.5em;
+}
+
+h3 {
+	float: left;
+	width: 100%;
+	font-size: 0.9em!important;
+}
+
+li {
+	list-style-type: none;
+	border: 1px black solid!important;
+}
+
+h3.stacca {
+	margin-bottom: 2.5%;
+	width: 100%;
+	font: 1.2em 'HK-Bold'!important;
+	text-transform: uppercase;
+}
+iframe{
+	display:none;
+}
+div.colonna p {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-right: 10%;
+}
+div.colonna.uno{
+	width: 50%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+br {
+   display: none!important;
+}
+div.meta {
+	width: 100%;
+	float: left;
+	margin-top: 1%;
+	font: 1em 'HK-Regular';
+	margin-bottom: 1%;
+}
+
+strong {
+	font-family: 'HK-Bold';
+}
+div.colonna strong{
+	font-size: 1em;
+}
+div.info strong{
+	font: 1em 'HK-Bold';
+	width: 100%;
+}
+span.orario {
+font-feature-settings: 'tnum'!important;
+-webkit-font-feature-settings: 'tnum'!important;
+-moz-font-feature-settings: 'tnum'!important;`
+font-variant-numeric: lining-nums!important;
+	float: right;
+	margin-right: 40%;
+}
+div.colonna{
+	width: 50%;
+	float: left;
+	min-height:9em;
+	font-family: 'HK-Regular';
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 0.75em!important;
+	line-height: 1.5em!important;
+
+}
+
+h2.titolino {
+	float: left;
+	width: 100%;
+	margin-bottom: 1%;
+	font: 1.2em 'HK-Bold'!important;
+	text-transform: uppercase;
+}
+
+img {
+	display:none;
+	
+}
+h2.corso{
+  -moz-font-feature-settings: "ss03"!important;
+  -webkit-font-feature-settings: "ss03"!important;
+  font-feature-settings: "ss03"!important;
+	text-transform: uppercase;
+	text-align: left;
+	width: 100%;
+	float: left;
+	margin: 2.5% 0 0;
+	font: normal 4em 'freakgrotesknext';
+}
+
+@html {
+  size: a4;
+}
+
+p.xyz {
+	display: inline;
+	float: left;
+	width: 100%;
+	font: 1em 'HK-Light';
+	margin-top: 2.5%;
+	text-transform: uppercase;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 20% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.j {
+	width:5%;
+	margin-right:1%;
+	float:left;
+}
+div.j svg{
+	width: 5.66em;
+}
+}

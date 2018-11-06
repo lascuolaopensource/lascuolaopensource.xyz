@@ -1,0 +1,37 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+AddHandler fcgid54-script .php
+
+# BEGIN WordPress
+ErrorDocument 404 /index.php?error=404
+
+# END WordPress
+RewriteCond %{HTTP_HOST} ^lascuolaopensource\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lascuolaopensource\.org$
+RewriteRule ^/?$ "http\:\/\/www\.lascuolaopensource\.xyz\/" [R=301,L]
+
+<FilesMatch "\.(ttf|otf|eot)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
+
+# Enable expirations
+ExpiresActive On
+
+# Default directive
+ExpiresDefault "access plus 1 month"
+
+# Images
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+
+# CSS
+ExpiresByType text/css "access 1 month”
+
+# Javascript
+ExpiresByType application/javascript "access plus 1 year"

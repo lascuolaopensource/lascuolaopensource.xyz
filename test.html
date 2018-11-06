@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento senza titolo</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+var counter=1;
+
+function verificaEmail(){
+var email_reg_exp = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-]{2,})+\.)+([a-zA-Z0-9]{2,})+$/;
+var email = document.getElementById("email").value;
+if (!email_reg_exp.test(email) || (email == "") || (email == "undefined")) {
+   counter=1;
+   document.getElementById('infoE').innerHTML="<span style='background:#ffcbcb'>Inserire un indirizzo mail corretto!</span>";
+      
+}else {
+	document.getElementById('infoE').innerHTML="<span style='background:#d7efcd'>Indirizzo email corretto!</span>";
+	counter=0;
+}
+}
+	
+
+$(document).ready(function() {
+  $("#donate").click(function(){  
+    var email = $("#email").val();
+    var motivazione = $("#motivazione").val();
+    $.post("assets/ppipn/query.php", { email: email, motivazione: motivazione }, document.getElementById("btn_donation").disabled = false );
+	});
+	
+ document.getElementById("btn_donation").disabled = true; 
+ document.getElementById("donate").disabled = true; 
+
+	});
+	
+function verificaCount(){
+	if(counter!=0){ 
+	       document.getElementById("donate").disabled = true; 
+                  }else document.getElementById("donate").disabled = false;
+			}	
+
+</script>
+</head>
+<body>
+
+
+
+
+<form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' id='form_donazione' name='form_donazione' onBlur='verificaEmail();' onMouseMove='verificaEmail(); verificaCount();'>
+
+<!-- PayPal will send an IPN notification to this URL: -->
+<input type="hidden" name="notify_url"
+value="www.lascuolaopensource.xyz/assets/ppipn/listenerIPN.php" /> 
+
+<!-- The return page to which the user is
+navigated after the donations is complete: -->
+<input type="hidden" name="return"
+value="www.lascuolaopensource.xyz" /> 
+
+<!-- Signifies that the transaction data will be
+passed to the return page by POST: -->
+<input type="hidden" name="rm" value="2" /> 
+
+<input type='hidden' name='cmd' value='_s-xclick' />
+e-mail:<br>
+<br>
+<input type='email' placeholder='youremail@email.com' onBlur='verificaEmail();' onMouseMove='verificaEmail(); verificaCount();' id='email' name='email'/><br>
+<div id="infoE"></div>
+<br>
+motivazione:<br>
+<br>
+<input type='text' name='motivazione' id='motivazione'><br>
+<br>
+<input type='hidden' name='hosted_button_id' value='BLQA7D5ZWFYVL'/>
+<button type='button' name='donate' id='donate'>Clicca per abilitare il pulsante donazione!</button> 
+<br>
+<input type='image' alt='Submit' src='https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif' border='0' id='btn_donation' />
+<img alt='' border='0' src='https://www.paypalobjects.com/it_IT/i/scr/pixel.gif' width='1' height='1'>
+</form>
+
+</body>
+</html>
+
+
+
+

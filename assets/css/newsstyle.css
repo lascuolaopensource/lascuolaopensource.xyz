@@ -1,0 +1,60 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+/*  
+// From https://bootsnipp.com/snippets/featured/newsletter-subscribe
+//
+// Updated to boostrap 3 + Fontawesome 4
+//
+*/
+input.btn-primary {
+  margin-top: 15px;
+}
+
+
+.btn, .btn-default {
+background-color: #ff00ee;
+border-radius: 0 10px 10px 0;
+border-color: #000000;
+color: #000000;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+color: #000000;
+background-color: #50ff00;
+
+}
+
+.form-control {
+border: 1px;
+border-radius: 10px 0 0 10px;	
+width:195px;
+max-width:195px;
+display:inline-block;
+}
+
+.modal-dialog {
+   position:fixed;
+   top:auto;
+   right:auto;
+   left:20px;
+   bottom:30px;
+   width: 350px;
+   max-width:350px;
+   color: #ff00ee; 
+
+
+
+} 
+
+.modal-content {
+background-color: #000000;
+border: 2px solid;
+border-radius: 20px;
+text-align: center;
+
+}
+
+body.modal-open {
+overflow: scroll;
+}
+
